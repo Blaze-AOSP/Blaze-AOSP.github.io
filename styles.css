@@ -1,0 +1,207 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121212;
+}
+
+.navbar {
+    background-color: #121212;
+    padding: 2rem 3rem;
+}
+
+.nav-header {
+    vertical-align: middle;
+    color: #FFFFFF;
+    opacity: 80%;
+    font-size: 25px;
+    font-family: Raleway;
+}
+
+.nav-item {
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 80%;
+    font-size: 20px;
+    font-family: Raleway;
+    vertical-align: middle;
+}
+
+.nav-item:hover {
+    color: #FF8F00;
+    transition-duration: 0.3s;
+}
+
+.heading {
+    text-align: center;
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 100px;
+    opacity: 80%;
+    margin-top: 2.5rem;
+}
+
+.subheading {
+    text-align: center;
+    font-family: Raleway;
+    color: #FF8F00;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.desc { 
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 80%;
+    font-size: 25px;
+    font-family: Raleway;
+}
+
+.desc1 {
+    color: white;
+    opacity: 60%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;    
+    font-family: Montserrat;
+}
+
+.div-card {
+    margin-top: 20rem;
+    background-color: #1A1A1A;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 70%;
+    border-radius: 15px;
+}   
+
+.dwbtn {
+    border-color: #FF8F00;
+    color: #FF8F00;
+    margin-bottom: 0.75rem;
+}
+
+.dwbtn:hover {
+    background-color: #FF8F00;
+    color: white;
+}
+
+.right {
+    text-align: center;
+}
+
+.features {
+    margin-top: 3rem;
+}
+
+.features-box {
+    border-radius: 15px;
+    margin-top: 2rem;
+    color: #FF8F00;
+    opacity: 80%;
+    text-align: center;
+    background-color: #1A1A1A;
+    margin: 2rem 0.35rem;
+    padding: 1rem 0;
+}
+
+.f-head {
+    font-family: Raleway;
+    color: white;
+}
+
+.f-desc {
+    font-family: Raleway;
+    color: white;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.download-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top {
+    background-color: #1A1A1A;
+}
+
+.card-header {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card {
+    padding-top: 1rem;
+    background-color: #1A1A1A;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: none;
+    font-family: Raleway;
+    margin-bottom: 1.25rem;
+    border-radius: 15px;
+}
+
+.card-body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0;
+    border-radius: 15px;
+}
+
+.list-unstyled {
+    margin: 0.5rem 1rem;
+}
+
+.icon-text {
+    font-family: Raleway;
+    margin-left: 1.25rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+#mockup {
+    display: block;
+    width: 90%;
+}
+
+@media (max-width: 1028px) {
+    .navbar {
+        padding: 2rem 0.5rem;
+    }
+    #mockup {
+        width: 100%;
+    }
+    .heading {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    .subheading {
+        font-size: 1.5rem;
+    }
+    .desc {
+        margin-top: 1rem;
+    }
+    .desc1{
+        width: 90%;
+    }
+    .dwbtn {
+        width: 90%;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    .div-card {
+        width: 90%;
+    }
+    .features-box {
+        margin-top: 0.5rem;
+    }
+}
