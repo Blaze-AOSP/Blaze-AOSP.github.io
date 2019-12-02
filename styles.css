@@ -210,4 +210,8 @@ body {
     .features-box {
         margin-top: 0.5rem;
     }
+    #screenshot {
+        width: 100%;
+        margin-left: 0;
+    }
 }
