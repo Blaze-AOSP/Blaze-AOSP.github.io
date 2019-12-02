@@ -173,6 +173,12 @@ body {
     width: 90%;
 }
 
+#screenshot {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
 @media (max-width: 1028px) {
     .navbar {
         padding: 2rem 0.5rem;
