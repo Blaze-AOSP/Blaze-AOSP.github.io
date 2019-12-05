@@ -167,10 +167,6 @@ body {
     text-align: center;
 }
 
-.changelog-text {
-    font-family: Source Code Pro;
-}
-
 #mockup {
     display: block;
     width: 90%;
@@ -180,11 +176,6 @@ body {
     width: 80%;
     height: auto;
     margin-left: 10%;
-}
-
-#changelogCard {
-    padding: 0;
-    width: 90%;
 }
 
 @media (max-width: 1028px) {
@@ -218,14 +209,8 @@ body {
     .features-box {
         margin-top: 0.5rem;
     }
-    .changelog-text {
-        font-size: 12px;
-    }
     #screenshot {
         width: 100%;
         margin-left: 0;
-    }
-    #changelogCard {
-        width: 70%;
     }
 }
