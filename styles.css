@@ -167,6 +167,18 @@ body {
     text-align: center;
 }
 
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.team-card {
+    width: 100%;
+}
+
 #mockup {
     display: block;
     width: 90%;
